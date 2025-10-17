@@ -1,16 +1,28 @@
-# React + Vite
+# 🛍️ Mi Tienda React – Preentrega Nº1 (Coderhouse)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **landing page básica** creada con **Vite + React**, correspondiente a la **Preentrega Nº1 del curso de React en Coderhouse**.  
+El objetivo es aplicar los primeros conceptos del curso
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## React Compiler
+- **React** (con Vite)
+- **Bootstrap 5** para el diseño responsive
+- **HTML5 / CSS3 / JSX**
+- **JavaScript**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Estructura de componentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El proyecto está dividido en tres componentes principales:
+
+### 🔹 `NavBar.jsx`
+Barra de navegación con enlaces simulados (Inicio, Productos, Contacto) y un botón de carrito.
+
+### 🔹 `CartWidget.jsx`
+Componente del carrito, muestra un ícono 🛒 y un número representando la cantidad de productos.
+
+### 🔹 `ItemListContainer.jsx`
+Muestra un mensaje de bienvenida pasado desde el componente `App` mediante **props**.
